@@ -14,7 +14,7 @@ def valid_word(words):
 def Hangman():
     get_word = valid_word(words)
     word_letters = set(get_word)  # letters in the word
-    alphabet = set(string.ascii_uppercase)
+    alphabet = set(string.ascii_uppercase) #   ---------->   ABCDEFGHIJKLMNOPQRSTUVWXYZ   <-------------
     used_letters = set()  # what the user has guessed
 
     remaining_time = 8 # Optional value
@@ -26,10 +26,10 @@ def Hangman():
         print('Current words --->  ', ' '.join(word_list)) # change this ['-', '-', '-', '-', '-', '-', '-', '-'] to this --------
 
         user_letter = input('type your Guess please: ').upper()
-        if user_letter in alphabet - used_letters:
+        if user_letter in alphabet - used_letters: # remain letter 
             used_letters.add(user_letter)
             if user_letter in word_letters:
-                word_letters.remove(user_letter)
+                word_letters.remove(user_letter) 
                 print(' ')
 
             else:
