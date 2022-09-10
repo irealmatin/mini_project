@@ -18,9 +18,9 @@ def Hangman():
     alphabet = set(string.ascii_uppercase)
     used_letters = set()  # what the user has guessed
 
-    live = 7
+    remaining_time = 8 # Optional value
 
-    while len(word_letters) > 0 and live > 0 :
+    while len(word_letters) > 0 and remaining_time > 0 :
         # corrent status
         print('You have', live , 'lives left and you have used these letters: ', ' '.join(used_letters))
         word_list = [letter if letter in used_letters else '-' for letter in get_word]
