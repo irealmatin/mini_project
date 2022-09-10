@@ -4,7 +4,7 @@ import string
 from words import words
 
 
-# Define a function for get valid words . otherwise that word wich have space and dashes in middle of them
+# Define a function for get valid words . otherwise that word wich have not space and dashes in middle of them
 def valid_word(words):
     get_word = random.choice(words)
     while '-' in get_word or ' ' in get_word:
