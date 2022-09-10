@@ -3,7 +3,6 @@ import string
 
 from words import words
 
-
 # Define a function for get valid words . otherwise that word wich have not space and dashes in middle of them
 def valid_word(words):
     get_word = random.choice(words)
@@ -31,7 +30,7 @@ def Hangman():
             used_letters.add(user_letter)
             if user_letter in word_letters:
                 word_letters.remove(user_letter)
-                print('')
+                print(' ')
 
             else:
                 live = live - 1  # dicrease life if wrong
@@ -50,7 +49,7 @@ def Hangman():
             print('#' * 100)
             print('#' * 99)
             print('#' * 98)
-            print('wooow! You guessed the word', get_word, 'correctly')
+            print('wooow! You guessed the word', get_word, 'correctly')  # get a message to show you could  guess the word correctly
         
 
 if __name__ == '__main__':
