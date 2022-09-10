@@ -40,7 +40,7 @@ def Hangman():
         else : print('its not valid')
 
 
-        if live == 0: # get a message to show you could not guess the word correctly
+        if remaining_time == 0: # get a message to show you could not guess the word correctly
             print('#' * 100)
             print('#' * 99)
             print('#' * 98)
