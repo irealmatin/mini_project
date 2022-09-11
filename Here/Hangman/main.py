@@ -23,7 +23,7 @@ def Hangman():
         # corrent status
         print('You have', live , 'lives left and you have used these letters: ', ' '.join(used_letters))
         word_list = [letter if letter in used_letters else '-' for letter in get_word]
-        print('Current words --->  ', ' '.join(word_list)) # change this ['-', '-', '-', '-', '-', '-', '-', '-'] to this --------
+        print('Current words --->  ', ' '.join(word_list)) # change this ['-', '-', '-', '-', '-', '-', '-', '-']   to this    --------
 
         user_letter = input('type your Guess please: ').upper()
         if user_letter in alphabet - used_letters: # remain letter 
@@ -51,6 +51,5 @@ def Hangman():
             print('#' * 98)
             print('wooow! You guessed the word', get_word, 'correctly')  # get a message to show you could  guess the word correctly
         
-
 if __name__ == '__main__':
     Hangman()
