@@ -1,8 +1,8 @@
 import random
 
-print("Welcome:))\nthis is Password generator program")
+print("Welcome:))\nthis is Password generator program...")
 
-char_pass = 'abcdefghijklmnopqrstuvwxyzABCDEFGHILKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()-_+=}{[]|\;:"<>,./?'
+char_pass = 'abcdefghijklmnopqrstuvwxyzABCDEFGHILKLMNOPQRSTUVWXYZ0123456789~`!@#$%^&*()-_+=}{[]|\;:"<>,./?' # A-Z , a-z , symbol , 0-9 for make password
 
 print("******\nAnswer the question below for make your password ...")
 
