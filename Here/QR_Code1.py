@@ -1,6 +1,6 @@
 import qrcode # you should import this in your terminal 
 
-my_data = 'https://github.com/irealmatin' # Optional data for make a QR code 
+my_data = 'https://github.com/irealmatin' # Optional data for make a QR code . here i put my GitHub page for example!!
 
 the_qr = qrcode.QRCode( 
     # customize your QR code here
