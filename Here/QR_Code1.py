@@ -1,4 +1,4 @@
-import qrcode
+import qrcode # you should import this in your terminal 
 
 my_data = 'https://github.com/irealmatin'
 
