@@ -10,3 +10,4 @@ A number of cool and simple projects with Python! 💙
 #### 5- [Password generator](https://github.com/irealmatin/mini_project/blob/main/Here/Password_Generator.py)
 #### 6- [QR Code(encoding)](https://github.com/irealmatin/mini_project/blob/main/Here/QR_Code1.py)
 #### 7- [QR Code(decoding)](https://github.com/irealmatin/mini_project/blob/main/Here/QR_Code2.py)
+#### 8- [password generator(Update)](https://github.com/irealmatin/mini_project/blob/main/Here/password_creater_class.py)
