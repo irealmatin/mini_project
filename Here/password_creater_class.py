@@ -3,7 +3,6 @@ from string import ascii_letters, punctuation
 
 
 class Password:
-    
     """
     this class make a random password in low , mid and high level
     ( low -> 8 , mid -> 12, high -> 16 )
